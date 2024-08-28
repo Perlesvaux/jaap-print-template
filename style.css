@@ -75,64 +75,61 @@
 
 
 
-.flex-container { 
-  display: flex;
-  justify-content: center;
-  /*align-items: center;*/
-}
+  .flex-container { 
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+  }
 
-.flex-container div {
-  padding: 2px;
-  /*border-radius: 11px;*/
-}
-
-
-.user-caserio { 
-  display: flex;
-  /*background-color: DodgerBlue;*/
-  /*justify-content: flex-start;*/
-  /*align-items: start;*/
-  align-items: center;
-  font-size: 21px;
-}
+  .flex-container div {
+    padding: 2px;
+    /*border-radius: 11px;*/
+  }
 
 
-.user-name { 
-  display: flex;
-  /*background-color: DodgerBlue;*/
-  /*justify-content: flex-start;*/
-  align-items: center;
-  font-size: 21px;
-}
-
-.jaap-header-and-legend { 
-  display: flex;
-  justify-content: center;
-  /*align-items: center;*/
-  flex-direction: column;
-  text-align: center;
-  text-transform: uppercase;
-  /*font-size: 15px;*/
-}
+  .user-caserio { 
+    display: flex;
+    /*background-color: DodgerBlue;*/
+    /*justify-content: flex-start;*/
+    /*align-items: start;*/
+    align-items: center;
+    font-size: 21px;
+  }
 
 
-.flex-container.border {
-  padding: 10px;
-  align-items: center;
-}
+  .user-name { 
+    display: flex;
+    /*background-color: DodgerBlue;*/
+    /*justify-content: flex-start;*/
+    align-items: center;
+    font-size: 21px;
+  }
 
-section {
-  padding: 1.0rem;
-}
+  .jaap-header-and-legend { 
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+    /*font-size: 15px;*/
+  }
 
-.bigger {
-    font-size: 20px;
-}
 
+  .flex-container.border {
+    padding: 10px;
+    align-items: center;
+  }
 
   section {
+    padding: 1.0rem;
     height:50vh;
   }
+
+  .bigger {
+    font-size: 20px;
+  }
+
 }
 
 
