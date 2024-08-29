@@ -51,7 +51,7 @@
   }
   
   .underline {
-     border-bottom: 3px solid #34869c;
+     border-bottom: 2px solid #34869c;
      width:80%;
   }
 
@@ -129,6 +129,55 @@
   .bigger {
     font-size: 20px;
   }
+
+  .grid-container {
+    display: grid;
+    
+  }
+  
+
+  .bl {
+     /*border: 3px solid #34869c;*/
+     border-left: 3px solid #34869c;
+  }
+
+  .br {
+     /*border: 3px solid #34869c;*/
+     border-right: 3px solid #34869c;
+  }
+
+  .bb {
+     /*border: 3px solid #34869c;*/
+     border-bottom: 3px solid #34869c;
+  }
+
+  .bt {
+     /*border: 3px solid #34869c;*/
+     border-top: 3px solid #34869c;
+  }
+
+  .btrr {
+     /*border: 3px solid #34869c;*/
+     border-top-right-radius: 11px;
+  }
+
+  .bbrr {
+     /*border: 3px solid #34869c;*/
+     border-bottom-right-radius: 11px;
+  }
+
+  .btlr {
+     /*border: 3px solid #34869c;*/
+     border-top-left-radius: 11px;
+  }
+
+  .bblr {
+     /*border: 3px solid #34869c;*/
+     border-bottom-left-radius: 11px;
+  }
+
+
+
 
 }
 
